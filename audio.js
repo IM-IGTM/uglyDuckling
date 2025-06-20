@@ -19,7 +19,7 @@ const audioMap = {
 const audioPlayer = document.getElementById("page-audio");
 
 document.getElementById("start-btn").addEventListener("click", () => {
-  audioPlayer.src = "./duckAudio/mp3/intro.mp3";
+  audioPlayer.src = "./intro.mp3";
   audioPlayer.muted = false;
   document.getElementById("start-btn").style.display = "none";
   setTimeout(() => {
