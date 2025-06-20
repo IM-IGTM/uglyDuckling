@@ -1,19 +1,19 @@
 const audioMap = {
-  1: "./duckAudio/mp3/intro.mp3", // 1페이지: 단면
-  2: "./duckAudio/mp3/page01.mp3", // 2~3역으로 갈 때 재생
-  3: "./duckAudio/mp3/page01.mp3", // 2~3
-  4: "./duckAudio/mp3/page02.mp3", // 4~5 역으로 갈 때 재생
-  5: "./duckAudio/mp3/page02.mp3", // 4~5
-  6: "./duckAudio/mp3/page03.mp3", // 6~7 역으로 갈 때 재생
-  7: "./duckAudio/mp3/page03.mp3", // 6~7
-  8: "./duckAudio/mp3/page04.mp3", // 8~9 역으로 갈 때 재생
-  9: "./duckAudio/mp3/page04.mp3", // 8~9
-  10: "./duckAudio/mp3/page05.mp3", // 10~11 역으로 갈 때 재생
-  11: "./duckAudio/mp3/page05.mp3", // 10~11
-  12: "./duckAudio/mp3/page06.mp3", // 12~13 역으로 갈 때 재생
-  13: "./duckAudio/mp3/page06.mp3", // 12~13
-  14: "./duckAudio/mp3/page07.mp3", // 14~15 역으로 갈 때 재생
-  15: "./duckAudio/mp3/page07.mp3", // 14~15
+  1: "./intro.mp3", // 1페이지: 단면
+  2: "./page01.mp3", // 2~3역으로 갈 때 재생
+  3: "./page01.mp3", // 2~3
+  4: "./page02.mp3", // 4~5 역으로 갈 때 재생
+  5: "./page02.mp3", // 4~5
+  6: "./page03.mp3", // 6~7 역으로 갈 때 재생
+  7: "./page03.mp3", // 6~7
+  8: "./page04.mp3", // 8~9 역으로 갈 때 재생
+  9: "./page04.mp3", // 8~9
+  10: "./page05.mp3", // 10~11 역으로 갈 때 재생
+  11: "./page05.mp3", // 10~11
+  12: "./page06.mp3", // 12~13 역으로 갈 때 재생
+  13: "./page06.mp3", // 12~13
+  14: "./page07.mp3", // 14~15 역으로 갈 때 재생
+  15: "./page07.mp3", // 14~15
 };
 
 const audioPlayer = document.getElementById("page-audio");
