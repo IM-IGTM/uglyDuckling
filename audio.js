@@ -17,7 +17,7 @@ const audioMap = {
 };
 
 const audioPlayer = document.getElementById("page-audio");
-
+//스타트 버튼 눌렀을 때 동작 소스
 document.getElementById("start-btn").addEventListener("click", () => {
   audioPlayer.src = "./intro.mp3";
   audioPlayer.muted = false;
